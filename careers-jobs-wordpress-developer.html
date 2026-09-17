@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>WordPress Developer – X26</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel='stylesheet' id='x26-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..600&#038;display=swap' media='all' />
+<link rel='stylesheet' id='x26-app-css' href='wp-content/themes/x26/dist/app.css' media='all' />
+<body class="wp-singular x26_job-template-default single single-x26_job postid-31 wp-theme-x26" data-trail data-assets="wp-content/themes/x26/assets">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+	<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+	<symbol id="i-left" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+	<symbol id="i-right" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<canvas id="trail" aria-hidden="true"></canvas>
+
+<!-- floating bar: appears once the hero has scrolled away; turns dark-on-light over white sections -->
+<header class="nav-bar" data-nav>
+	<a class="nav-logo" href="index.html" aria-label="X26"><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="66.7322" height="23.9796" viewBox="0 0 66.7322 23.9796" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2087329592">
+<g id="Group 2087329591">
+<path id="Union" d="M4.88212 3.70164C4.88212 4.29419 5.36247 4.77455 5.95502 4.77455H8.58362C9.17617 4.77455 9.65653 5.25491 9.65653 5.84746V8.47606C9.65653 9.06861 10.1369 9.54897 10.7294 9.54897H13.358C13.9506 9.54897 14.4309 10.0293 14.4309 10.6219V13.2505C14.4309 13.843 14.9113 14.3234 15.5039 14.3234H18.1862C18.7787 14.3234 19.2591 14.8037 19.2591 15.3963V18.0249C19.2591 18.6174 19.7394 19.0978 20.332 19.0978H22.9606C23.5531 19.0978 24.0335 19.5782 24.0335 20.1707V22.9067C24.0335 23.4993 23.5531 23.9796 22.9606 23.9796H20.2246C19.632 23.9796 19.1516 23.4993 19.1516 22.9067V20.2781C19.1516 19.6856 18.6713 19.2052 18.0787 19.2052H15.4501C14.8576 19.2052 14.3772 18.7249 14.3772 18.1323V15.5037C14.3772 14.9112 13.8969 14.4308 13.3043 14.4308H10.622C10.0295 14.4308 9.54911 13.9504 9.54911 13.3579V10.7293C9.54911 10.1367 9.06875 9.65639 8.4762 9.65639H5.8476C5.25505 9.65639 4.77469 9.17603 4.77469 8.58348V5.95488C4.77469 5.36233 4.29434 4.88197 3.70179 4.88197H1.07319C0.480636 4.88197 0.000279392 4.40162 0.000279392 3.80907V1.07304C0.000279392 0.480494 0.480636 0.000137329 1.07319 0.000137329H3.80921C4.40176 0.000137329 4.88212 0.480494 4.88212 1.07304V3.70164Z" fill="currentColor"/>
+<path id="Union_2" d="M19.1514 3.70164C19.1514 4.29419 18.671 4.77455 18.0785 4.77455H15.4499C14.8573 4.77455 14.377 5.25491 14.377 5.84746V8.47606C14.377 9.06861 13.8966 9.54897 13.304 9.54897H10.6754C10.0829 9.54897 9.60254 10.0293 9.60254 10.6219V13.2505C9.60254 13.843 9.12218 14.3234 8.52963 14.3234H5.84732C5.25477 14.3234 4.77441 14.8037 4.77441 15.3963V18.0249C4.77441 18.6174 4.29406 19.0978 3.70151 19.0978H1.07291C0.480357 19.0978 3.63449e-07 19.5782 3.63449e-07 20.1707V22.9067C3.63449e-07 23.4993 0.480357 23.9796 1.07291 23.9796H3.80893C4.40148 23.9796 4.88184 23.4993 4.88184 22.9067V20.2781C4.88184 19.6856 5.36219 19.2052 5.95474 19.2052H8.58334C9.17589 19.2052 9.65625 18.7249 9.65625 18.1323V15.5037C9.65625 14.9112 10.1366 14.4308 10.7292 14.4308H13.4115C14.004 14.4308 14.4844 13.9504 14.4844 13.3579V10.7293C14.4844 10.1367 14.9647 9.65639 15.5573 9.65639H18.1859C18.7784 9.65639 19.2588 9.17603 19.2588 8.58348V5.95488C19.2588 5.36233 19.7391 4.88197 20.3317 4.88197H22.9603C23.5528 4.88197 24.0332 4.40162 24.0332 3.80907V1.07304C24.0332 0.480494 23.5528 0.000137329 22.9603 0.000137329H20.2243C19.6317 0.000137329 19.1514 0.480494 19.1514 1.07304V3.70164Z" fill="currentColor"/>
+</g>
+<path id="Union_3" d="M27.2502 0C26.6577 0 26.1773 0.480357 26.1773 1.07291V3.80893C26.1773 4.40148 26.6577 4.88184 27.2502 4.88184H39.4277C40.0202 4.88184 40.5006 5.36219 40.5006 5.95474V8.52963C40.5006 9.12218 40.0202 9.60254 39.4277 9.60254H31.9709C31.3784 9.60254 30.898 10.0829 30.898 10.6754V13.304C30.898 13.8966 30.4177 14.377 29.8251 14.377H27.2502C26.6577 14.377 26.1773 14.8573 26.1773 15.4499V22.9066C26.1773 23.4991 26.6577 23.9795 27.2502 23.9795H44.3095C44.902 23.9795 45.3824 23.4991 45.3824 22.9066V20.1706C45.3824 19.578 44.902 19.0977 44.3095 19.0977H32.1321C31.5395 19.0977 31.0592 18.6173 31.0592 18.0247V15.5573C31.0592 14.9647 31.5395 14.4844 32.1321 14.4844H39.4814C40.0739 14.4844 40.5543 14.004 40.5543 13.4115V10.7829C40.5543 10.1903 41.0346 9.70996 41.6272 9.70996H44.3095C44.902 9.70996 45.3824 9.2296 45.3824 8.63705V5.90103C45.3824 5.30848 44.902 4.82812 44.3095 4.82812H41.7346C41.1421 4.82812 40.6617 4.34777 40.6617 3.75522V1.07291C40.6617 0.480357 40.1813 0 39.5888 0H27.2502Z" fill="currentColor"/>
+<path id="Union_4" d="M65.6593 0C66.2518 0 66.7322 0.480357 66.7322 1.07291V3.80893C66.7322 4.40148 66.2518 4.88184 65.6593 4.88184H53.4819C52.8893 4.88184 52.4089 5.36219 52.4089 5.95474V8.52963C52.4089 9.12218 52.8893 9.60254 53.4819 9.60254H60.9386C61.5311 9.60254 62.0115 10.0829 62.0115 10.6754V13.304C62.0115 13.8966 62.4918 14.377 63.0844 14.377H65.6593C66.2518 14.377 66.7322 14.8573 66.7322 15.4499V22.9066C66.7322 23.4991 66.2518 23.9795 65.6593 23.9795H53.4281C52.8356 23.9795 52.3552 23.4991 52.3552 22.9066V20.2243C52.3552 19.6317 51.8749 19.1514 51.2823 19.1514H48.6C48.0075 19.1514 47.5271 18.671 47.5271 18.0785V5.90103C47.5271 5.30848 48.0075 4.82812 48.6 4.82812H51.1749C51.7675 4.82812 52.2478 4.34777 52.2478 3.75522V1.07291C52.2478 0.480357 52.7282 0 53.3207 0H65.6593ZM52.4089 18.0247C52.4089 18.6173 52.8893 19.0977 53.4819 19.0977H60.7774C61.37 19.0977 61.8503 18.6173 61.8503 18.0247V15.5573C61.8503 14.9647 61.37 14.4844 60.7774 14.4844H53.4818C52.8893 14.4844 52.4089 14.9647 52.4089 15.5573V18.0247Z" fill="currentColor"/>
+</g>
+</svg>
+</a>
+	<nav class="nav-links" aria-label="Main">
+					<a class="nav-link" href="index.html#services">Services</a>
+					<a class="nav-link" href="index.html#process">Process</a>
+					<a class="nav-link" href="index.html#work">Work</a>
+					<a class="nav-link" href="index.html#testimonials">Testimonials</a>
+			</nav>
+	<a class="btn-call" href="contact.html#contact">Book a call</a>
+	<button class="menu-btn" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="Open menu"><i></i><i></i><i></i></button>
+</header>
+
+<!-- mobile menu -->
+<div class="nav-menu" id="nav-menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+	<div class="nav-menu-top">
+		<a class="nav-logo" href="index.html" aria-label="X26"><svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="66.7322" height="23.9796" viewBox="0 0 66.7322 23.9796" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2087329592">
+<g id="Group 2087329591">
+<path id="Union" d="M4.88212 3.70164C4.88212 4.29419 5.36247 4.77455 5.95502 4.77455H8.58362C9.17617 4.77455 9.65653 5.25491 9.65653 5.84746V8.47606C9.65653 9.06861 10.1369 9.54897 10.7294 9.54897H13.358C13.9506 9.54897 14.4309 10.0293 14.4309 10.6219V13.2505C14.4309 13.843 14.9113 14.3234 15.5039 14.3234H18.1862C18.7787 14.3234 19.2591 14.8037 19.2591 15.3963V18.0249C19.2591 18.6174 19.7394 19.0978 20.332 19.0978H22.9606C23.5531 19.0978 24.0335 19.5782 24.0335 20.1707V22.9067C24.0335 23.4993 23.5531 23.9796 22.9606 23.9796H20.2246C19.632 23.9796 19.1516 23.4993 19.1516 22.9067V20.2781C19.1516 19.6856 18.6713 19.2052 18.0787 19.2052H15.4501C14.8576 19.2052 14.3772 18.7249 14.3772 18.1323V15.5037C14.3772 14.9112 13.8969 14.4308 13.3043 14.4308H10.622C10.0295 14.4308 9.54911 13.9504 9.54911 13.3579V10.7293C9.54911 10.1367 9.06875 9.65639 8.4762 9.65639H5.8476C5.25505 9.65639 4.77469 9.17603 4.77469 8.58348V5.95488C4.77469 5.36233 4.29434 4.88197 3.70179 4.88197H1.07319C0.480636 4.88197 0.000279392 4.40162 0.000279392 3.80907V1.07304C0.000279392 0.480494 0.480636 0.000137329 1.07319 0.000137329H3.80921C4.40176 0.000137329 4.88212 0.480494 4.88212 1.07304V3.70164Z" fill="currentColor"/>
+<path id="Union_2" d="M19.1514 3.70164C19.1514 4.29419 18.671 4.77455 18.0785 4.77455H15.4499C14.8573 4.77455 14.377 5.25491 14.377 5.84746V8.47606C14.377 9.06861 13.8966 9.54897 13.304 9.54897H10.6754C10.0829 9.54897 9.60254 10.0293 9.60254 10.6219V13.2505C9.60254 13.843 9.12218 14.3234 8.52963 14.3234H5.84732C5.25477 14.3234 4.77441 14.8037 4.77441 15.3963V18.0249C4.77441 18.6174 4.29406 19.0978 3.70151 19.0978H1.07291C0.480357 19.0978 3.63449e-07 19.5782 3.63449e-07 20.1707V22.9067C3.63449e-07 23.4993 0.480357 23.9796 1.07291 23.9796H3.80893C4.40148 23.9796 4.88184 23.4993 4.88184 22.9067V20.2781C4.88184 19.6856 5.36219 19.2052 5.95474 19.2052H8.58334C9.17589 19.2052 9.65625 18.7249 9.65625 18.1323V15.5037C9.65625 14.9112 10.1366 14.4308 10.7292 14.4308H13.4115C14.004 14.4308 14.4844 13.9504 14.4844 13.3579V10.7293C14.4844 10.1367 14.9647 9.65639 15.5573 9.65639H18.1859C18.7784 9.65639 19.2588 9.17603 19.2588 8.58348V5.95488C19.2588 5.36233 19.7391 4.88197 20.3317 4.88197H22.9603C23.5528 4.88197 24.0332 4.40162 24.0332 3.80907V1.07304C24.0332 0.480494 23.5528 0.000137329 22.9603 0.000137329H20.2243C19.6317 0.000137329 19.1514 0.480494 19.1514 1.07304V3.70164Z" fill="currentColor"/>
+</g>
+<path id="Union_3" d="M27.2502 0C26.6577 0 26.1773 0.480357 26.1773 1.07291V3.80893C26.1773 4.40148 26.6577 4.88184 27.2502 4.88184H39.4277C40.0202 4.88184 40.5006 5.36219 40.5006 5.95474V8.52963C40.5006 9.12218 40.0202 9.60254 39.4277 9.60254H31.9709C31.3784 9.60254 30.898 10.0829 30.898 10.6754V13.304C30.898 13.8966 30.4177 14.377 29.8251 14.377H27.2502C26.6577 14.377 26.1773 14.8573 26.1773 15.4499V22.9066C26.1773 23.4991 26.6577 23.9795 27.2502 23.9795H44.3095C44.902 23.9795 45.3824 23.4991 45.3824 22.9066V20.1706C45.3824 19.578 44.902 19.0977 44.3095 19.0977H32.1321C31.5395 19.0977 31.0592 18.6173 31.0592 18.0247V15.5573C31.0592 14.9647 31.5395 14.4844 32.1321 14.4844H39.4814C40.0739 14.4844 40.5543 14.004 40.5543 13.4115V10.7829C40.5543 10.1903 41.0346 9.70996 41.6272 9.70996H44.3095C44.902 9.70996 45.3824 9.2296 45.3824 8.63705V5.90103C45.3824 5.30848 44.902 4.82812 44.3095 4.82812H41.7346C41.1421 4.82812 40.6617 4.34777 40.6617 3.75522V1.07291C40.6617 0.480357 40.1813 0 39.5888 0H27.2502Z" fill="currentColor"/>
+<path id="Union_4" d="M65.6593 0C66.2518 0 66.7322 0.480357 66.7322 1.07291V3.80893C66.7322 4.40148 66.2518 4.88184 65.6593 4.88184H53.4819C52.8893 4.88184 52.4089 5.36219 52.4089 5.95474V8.52963C52.4089 9.12218 52.8893 9.60254 53.4819 9.60254H60.9386C61.5311 9.60254 62.0115 10.0829 62.0115 10.6754V13.304C62.0115 13.8966 62.4918 14.377 63.0844 14.377H65.6593C66.2518 14.377 66.7322 14.8573 66.7322 15.4499V22.9066C66.7322 23.4991 66.2518 23.9795 65.6593 23.9795H53.4281C52.8356 23.9795 52.3552 23.4991 52.3552 22.9066V20.2243C52.3552 19.6317 51.8749 19.1514 51.2823 19.1514H48.6C48.0075 19.1514 47.5271 18.671 47.5271 18.0785V5.90103C47.5271 5.30848 48.0075 4.82812 48.6 4.82812H51.1749C51.7675 4.82812 52.2478 4.34777 52.2478 3.75522V1.07291C52.2478 0.480357 52.7282 0 53.3207 0H65.6593ZM52.4089 18.0247C52.4089 18.6173 52.8893 19.0977 53.4819 19.0977H60.7774C61.37 19.0977 61.8503 18.6173 61.8503 18.0247V15.5573C61.8503 14.9647 61.37 14.4844 60.7774 14.4844H53.4818C52.8893 14.4844 52.4089 14.9647 52.4089 15.5573V18.0247Z" fill="currentColor"/>
+</g>
+</svg>
+</a>
+		<button class="menu-close" type="button" data-menu-close aria-label="Close menu"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M1 1l12 12M13 1 1 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+	</div>
+	<nav class="nav-menu-links" aria-label="Main">
+					<a href="index.html#services"><span>Services</span><small>01</small></a>
+					<a href="index.html#process"><span>Process</span><small>02</small></a>
+					<a href="index.html#work"><span>Work</span><small>03</small></a>
+					<a href="index.html#testimonials"><span>Testimonials</span><small>04</small></a>
+					<a href="contact.html#contact"><span>Contact</span><small>05</small></a>
+			</nav>
+	<div class="nav-menu-foot">
+		<a class="btn-call btn-call-blue" href="contact.html#contact">Book a call</a>
+		<h5>Social media</h5>
+		<div class="nav-menu-social">
+			<a href="#">LinkedIn</a>
+			<a href="#">Instagram</a>
+		</div>
+	</div>
+</div>
+
+<main id="page" class="page-flow">
+<section class="sec sec-dark page-hero job-hero" id="top" data-trail data-page-hero>
+	<div class="page-head wrap">
+	<a class="page-logo" href="index.html"><img src="wp-content/themes/x26/assets/logo.svg" alt="X26" width="65" height="24" /></a>
+	<nav class="page-nav" aria-label="Main">
+					<a class="nav-link" href="index.html#services">Services</a>
+					<a class="nav-link" href="index.html#process">Process</a>
+					<a class="nav-link" href="index.html#work">Work</a>
+					<a class="nav-link" href="index.html#testimonials">Testimonials</a>
+			</nav>
+	<a class="btn-call page-call" href="contact.html#contact">Book a call</a>
+	<button class="menu-btn page-menu" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="Open menu"><i></i><i></i><i></i></button>
+</div>
+	<div class="wrap">
+		<a class="back-link" href="careers-open-roles.html"><svg aria-hidden="true"><use href="#i-left"/></svg>Back to open roles</a>
+		<span class="pill pill-dark mt-32"><i></i>Careers</span>
+		<h1 class="t-h1 mt-24">WordPress Developer</h1>
+	</div>
+</section>
+
+<div class="band band-flow" aria-hidden="true"></div>
+
+<section class="sec sec-light surface-light job-body">
+	<div class="wrap job-layout">
+		<nav class="job-list" aria-label="Open roles">
+			<p class="job-list-title">
+				6 open roles			</p>
+							<a class="job-list-item" href="careers-jobs-senior-full-stack-developer.html">
+					<b>Senior Full-Stack Developer</b>
+					<span>Remote · Full-time</span>
+				</a>
+							<a class="job-list-item is-current" href="careers-jobs-wordpress-developer.html" aria-current="page">
+					<b>WordPress Developer</b>
+					<span>Hybrid · Full-time</span>
+				</a>
+							<a class="job-list-item" href="careers-jobs-shopify-developer.html">
+					<b>Shopify Developer</b>
+					<span>Remote · Contract</span>
+				</a>
+							<a class="job-list-item" href="careers-jobs-ui-ux-designer.html">
+					<b>UI/UX Designer</b>
+					<span>Hybrid · Full-time</span>
+				</a>
+							<a class="job-list-item" href="careers-jobs-qa-engineer.html">
+					<b>QA Engineer</b>
+					<span>Remote · Full-time</span>
+				</a>
+							<a class="job-list-item" href="careers-jobs-project-manager.html">
+					<b>Project Manager</b>
+					<span>Hybrid · Full-time</span>
+				</a>
+					</nav>
+
+		<article class="posting">
+			<p class="job-team">Development</p>
+			<div class="posting-title">
+				<h2 class="t-h2-sm">WordPress Developer</h2>
+				<button class="round-btn" type="button" data-share aria-label="Share this role"><svg viewBox="0 0 16 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 1v11M3 6l5-5 5 5M1 11v6h14v-6"/></svg></button>
+			</div>
+			<ul class="job-meta">
+								<li><svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h14v10H2zM6 6V3h6v3"/></svg>Development</li>
+										<li><svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17s5-5.5 5-10a5 5 0 0 0-10 0c0 4.5 5 10 5 10z"/></svg>Hybrid</li>
+										<li><svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="7"/><path d="M9 5v4l3 2"/></svg>Full-time</li>
+										<li><svg viewBox="0 0 18 18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16v-4M9 16V8M15 16V3"/></svg>Mid level</li>
+			</ul>
+			<div class="btn-row mt-32">
+				<a class="btn-pill is-blue" href="contact.html#contact">Apply</a>
+				<button class="btn-pill is-outline" type="button" data-save aria-pressed="false">Save</button>
+			</div>
+			<hr />
+												<h3>Minimum qualifications</h3>
+					<ul class="bullets">
+													<li>3+ years building custom WordPress themes and plugins.</li>
+													<li>Solid PHP, JavaScript and CSS, including responsive layouts.</li>
+													<li>Experience turning Figma designs into editable, well-structured templates.</li>
+											</ul>
+																<h3>Preferred qualifications</h3>
+					<ul class="bullets">
+													<li>Experience with WooCommerce or booking plugins.</li>
+													<li>Familiar with animation libraries such as GSAP.</li>
+													<li>Care for accessibility and page speed.</li>
+											</ul>
+							
+										<h3>About the job</h3>
+									<p>You&#039;ll build the WordPress sites our designers hand over, making them fast, accessible and easy for clients to edit.</p>
+									<p>You&#039;ll work with the whole team from the first build to launch and handover.</p>
+							
+						<div class="salary is-empty">
+				<span>Salary</span>
+				<b>Add salary range and benefits</b>
+			</div>
+
+										<h3>Responsibilities</h3>
+				<ul class="bullets">
+											<li>Build custom themes and blocks from Figma designs.</li>
+											<li>Set up content types and editing screens clients can use without help.</li>
+											<li>Fix issues found in QA and keep sites fast and secure.</li>
+											<li>Write short handover notes for clients.</li>
+									</ul>
+			
+			<h3>How to apply</h3>
+			<ol class="apply-steps">
+									<li class="is-blue"><span>01</span><b>Apply</b></li>
+									<li><span>02</span><b>Intro call</b></li>
+									<li><span>03</span><b>Skills conversation</b></li>
+									<li><span>04</span><b>Meet the team &amp; offer</b></li>
+							</ol>
+			<a class="btn-pill is-blue mt-40" href="contact.html#contact">Apply for this role</a>
+			<hr />
+			<p class="eeo">X26 is an equal opportunity employer. We welcome applications from everyone, whatever their background, and judge every application on skills and experience. If you need any adjustments during the process, tell us and we’ll make them.</p>
+		</article>
+	</div>
+</section>
+
+<div class="band band-flow flip" aria-hidden="true"></div>
+
+<footer class="block footer" id="footer" data-trail>
+	<nav class="f-col" style="left:148px" aria-label="Company">
+		<h5>Company</h5>
+					<a href="index.html#about">About us</a>
+					<a href="case-study-bicester-horsebox-hire.html">Case studies</a>
+					<a href="careers.html#faq">FAQs</a>
+					<a href="careers.html">Careers</a>
+			</nav>
+	<nav class="f-col" style="left:548px" aria-label="Services">
+		<h5>Services</h5>
+					<a href="index.html#services">Elite Website Development</a>
+					<a href="index.html#services">Luxury E-commerce</a>
+					<a href="index.html#services">Bespoke Web Builds</a>
+			</nav>
+	<div class="f-sub">
+		<h5>Subscribe</h5>
+		<form class="f-input" method="post" action="#contact">
+			<input type="hidden" name="action" value="x26_subscribe" />
+			<input type="hidden" id="x26_nonce" name="x26_nonce" value="ad67258947" />			<input type="email" name="email" placeholder="Enter your email address" aria-label="Email address" required />
+			<button type="submit" aria-label="Subscribe"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
+		</form>
+		<p>By subscribing, you accept our Privacy Policy.</p>
+		<h5 class="f-social-h">Social media</h5>
+		<div class="f-social">
+							<a href="#" aria-label="Instagram"><img src="wp-content/themes/x26/assets/social-a.svg" alt="" /></a>
+							<a href="#" aria-label="LinkedIn"><img src="wp-content/themes/x26/assets/social-b.svg" alt="" /></a>
+					</div>
+	</div>
+	<p class="f-copy">© 2026 X26. All rights reserved</p>
+	<nav class="f-legal" aria-label="Legal">
+					<a href="#">Privacy policy</a>
+					<a href="#">Terms of Service</a>
+					<a href="#">Cookie Policy</a>
+			</nav>
+</footer>
+</main>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","wp-content/uploads/*","wp-content/*","wp-content/plugins/*","wp-content/themes/x26/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script data-wp-strategy="defer" defer id="x26-app-js" src="wp-content/themes/x26/dist/app.js"></script>
+</html>
